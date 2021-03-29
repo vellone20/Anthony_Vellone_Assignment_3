@@ -40,4 +40,3 @@ function displayContactTable(data) {
         $("#data_table").hide();
     }
 }
-

@@ -7,4 +7,3 @@ VALUES
 ('Jessica Perc','Customer','JessicaPerc@sheridancollege.ca','5195268529','1823  Fallon Drive, Auburn, Ontario N0M 1E0'),
 ('Jeana Faith','Customer','JeanaFaith@outlook.com','6042769248','3386  No.  Road, Richmond, British Columbia V6X 2B8'),
 ('Michael Myers','Customer','MichaelMyers@temporarymail.net','6139137963','4906  MacLaren Street, Ottawa, Ontario K1P 5M7');
-

@@ -11,5 +11,4 @@ function displayContactData(contact) {
     $("#email").text(contact.email);
     $("#phoneNumber").text(contact.phoneNumber);
     $("#address").text(contact.address);
-
 }

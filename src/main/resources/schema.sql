@@ -6,4 +6,3 @@ CREATE TABLE contact (
      phone_number VARCHAR(15),
      address VARCHAR(100)
 );
-
