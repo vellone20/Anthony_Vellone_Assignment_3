@@ -1,15 +1,15 @@
-let link = localStorage["student-data-link"];
+let link = localStorage["contact-data-link"];
 
 $(function(){
-    $.getJSON(link, displayStudentData);
+    $.getJSON(link, displayContactData);
 });
 
-function displayStudentData(student) {
-    console.log(student);
-    $("#firstName").text(student.firstName);
-    $("#lastName").text(student.lastName);
-    $("#programName").text(student.programName);
-    $("#programYear").text(student.programYear);
-    $("#programCoop").text(student.programCoop?'yes':'no');
-    $("#programInternship").text(student.programInternship?'yes':'no');
+function displayContactData(contact) {
+    console.log(contact);
+    $("#fullName").text(contact.fullName);
+    $("#contactType").text(contact.contactType?'Staff':'Customer');
+    $("#email").text(contact.email);
+    $("#phoneNumber").text(contact.phoneNumber);
+    $("#address").text(contact.address);
+
 }
