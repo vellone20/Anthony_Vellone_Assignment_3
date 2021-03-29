@@ -8,6 +8,7 @@ $(function () {
     let day = date.getDate();
     $("body").append("<footer><div id='sheridan' class='container'></div></footer>");
     $("#sheridan")
-        .html("Sheridan College")
-        .append(`${month} ${day}, ${year}`);
+        .html("Sheridan College, ")
+        .append(`${month} ${day}, ${year}`)
+        .append(", Anthony Vellone");
 });
