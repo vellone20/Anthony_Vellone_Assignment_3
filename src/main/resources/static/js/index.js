@@ -25,8 +25,8 @@ function displayContactTable(data) {
                     <td>
                         <ul class="nav justify-content-center">
                             <li class="nav-item">
-                                <a class="nav-link" href="contactDetails.html" data-link="${link}"> 
-                                <i class="material-icons">info</i>&nbsp;Info</a>
+                                <a class="nav-link" href="contactDetails.html" data-link="${link}" style="color: hotpink"> 
+                                <i class="material-icons">help_outline</i>&nbsp;Details</a>
                             </li>
                         </ul>
                     </td>
